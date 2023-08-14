@@ -105,7 +105,7 @@ header {
 
 .active-p::after {
   position: relative;
-  bottom: -20px;
+  bottom: -25px;
   content: "";
   display: flex;
   max-width: 100%;
@@ -332,6 +332,33 @@ header {
   gap: 24px;
 }
 
+.circle-1 {
+  width: 40px;
+  height: 40px;
+  background-color: var(--iris);
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-1:hover{
+  background-color: var(--green);
+  cursor: pointer;
+}
+
+.circle-1:focus {
+  background-color: var(--green);
+  cursor: pointer;
+}
+
+.circle-1:active {
+  background-color: var(--green);
+  cursor: pointer;
+}
+
 .circle {
   width: 40px;
   height: 40px;
@@ -346,12 +373,15 @@ header {
 
 .circle:hover{
   background-color: var(--green);
+  cursor: pointer;
 }
 .circle:focus{
   background-color: var(--green);
+  cursor: pointer;
 }
 .circle:active{
   background-color: var(--green);
+  cursor: pointer;
 }
 
 
@@ -388,16 +418,19 @@ header {
 .customers-element:focus{
   border:1px solid var(--ocean);
   fill: var(--ocean);
+  cursor: pointer;
 }
 
 .customers-element:hover{
   border: 1px solid var(--ocean);
   fill: var(--ocean);
+  cursor: pointer;
 }
 
 .customers-element:active{
   border: 1px solid var(--ocean);
   color: var(--ocean);
+  cursor: pointer;
 }
 
 .footer-box {
@@ -603,6 +636,10 @@ header {
   right: 24px;
   top: 24px;
   color: var(--brand-color);
+  text-align: center;
+  margin: 0;
+  border: var(--cornflower);
+  padding: 0;
 }
 
 .is-hidden {
@@ -644,7 +681,7 @@ header {
 
 .active-s::after{
   position: relative;
-  bottom: -20px;
+  bottom: -25px;
   content: "";
   display: flex;
   max-width: 100%;
