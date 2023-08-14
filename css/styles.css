@@ -345,17 +345,17 @@ header {
 }
 
 .circle-1:hover{
-  background-color: var(--green);
+  background-color: #404BBF;
   cursor: pointer;
 }
 
 .circle-1:focus {
-  background-color: var(--green);
+  background-color: #404BBF;
   cursor: pointer;
 }
 
 .circle-1:active {
-  background-color: var(--green);
+  background-color: #404BBF;
   cursor: pointer;
 }
 
